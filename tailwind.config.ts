@@ -18,6 +18,11 @@ const config: Config = {
           600: '#2F6FEB',
         },
       },
+      fontFamily: {
+        // 👇 Add CSS variables
+        inter: ['var(--font-inter)'],
+        lusitana: ['var(--font-lusitana)'],
+      },
     },
     keyframes: {
       shimmer: {
